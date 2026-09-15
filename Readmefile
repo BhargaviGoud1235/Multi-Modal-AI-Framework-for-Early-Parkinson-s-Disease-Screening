@@ -1,0 +1,48 @@
+# Multi-Modal AI Framework for Early Parkinson's Disease Screening
+
+## 📌 Project Overview
+
+**Multi-Modal AI Framework for Early Parkinson's Disease Screening Using Voice, Handwriting, Gait, Tremor, and Facial Analysis** is a research-oriented AI/ML project designed to support the early screening of Parkinson's Disease (PD).
+
+Parkinson's Disease can affect movement, speech, motor coordination, handwriting, gait, and facial movements. The proposed system analyzes multiple non-invasive behavioral modalities and combines their predictions to generate an overall risk assessment.
+
+> **Important:** This project is an AI-assisted **screening and risk assessment system**. It is not intended to provide a confirmed medical diagnosis or prescribe medication. Final diagnosis must be performed by a qualified healthcare professional.
+
+---
+
+## 🎯 Objectives
+
+The main objectives of this project are:
+
+* Develop an AI-based system for early Parkinson's Disease screening.
+* Analyze multiple behavioral and motor indicators.
+* Extract meaningful features from voice recordings.
+* Analyze handwriting patterns and tremor characteristics.
+* Analyze gait and walking patterns from video.
+* Analyze hand tremor using video/webcam input.
+* Analyze facial movement and expression-related features.
+* Combine predictions from multiple modalities using multimodal fusion.
+* Provide an interpretable overall risk assessment.
+* Maintain prediction history for users.
+* Provide general health-related recommendations without prescribing medication.
+
+---
+
+## 🔬 Proposed Modalities
+
+The system is divided into five major analysis modules.
+
+### 1. 🎙️ Voice Analysis
+
+The user can upload or record a voice sample.
+
+The system extracts acoustic features such as:
+
+* MFCC
+* Pitch
+* Jitter
+* Shimmer
+* HNR
+* Other relevant voice characteristics
+
+Machine learning/deep learning models can then be used to classify the sample into an appropriate ris
